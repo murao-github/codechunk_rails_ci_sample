@@ -1,0 +1,14 @@
+{
+    "name": "codechunk",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+    ],
+    "forwardPorts": [
+        3000
+    ],
+    "workspaceFolder": "/codechunk",
+}
